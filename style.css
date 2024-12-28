@@ -47,7 +47,7 @@
 }
 
 .quote-btn{
-    background-color: white;
+    background-color: blueviolet;
     border-radius: 30px;
     border:0px;
     width: 150px;
@@ -55,11 +55,11 @@
     margin-bottom: 20px;
     margin-top: 0px;
     margin-left: 30px;
-    color:blueviolet
+    color:white;
 }
 
 .quote-btn:hover{
-    background-color: blueviolet;
+    background-color: gray;
     color: white;
 }
 
@@ -73,3 +73,25 @@
     font-size:xx-large;
 }
 
+.qna-q{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+a{
+    color:inherit;
+}
+
+.qna-a{
+    font-family: Arial;
+    font-weight: light;
+}
+
+.footer{
+    font-family: Arial;
+    font-weight: lighter;
+    font-size:medium;
+    color:gray;
+    text-align: center;
+}
