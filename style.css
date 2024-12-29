@@ -28,14 +28,22 @@
     font-size:large;    
 }
 
+.image-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
 .main1{
-    background-image: url('main1.png');
+    background-image: url('main.');
 }
 
 .main1-p{
-    color:rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
     font-family: Arial;
-    font-size: xx-large;
+    font-size: large;
     font-weight: lighter;
     letter-spacing: 2px;
 
@@ -56,6 +64,11 @@
     margin-top: 0px;
     margin-left: 30px;
     color:white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .quote-btn:hover{
@@ -64,13 +77,13 @@
 }
 
 .qna{
-    text-align: center;
     color: gray;
 }
 
 .qna-intro{
     font-family: Arial;
     font-size:xx-large;
+    text-align: center;
 }
 
 .qna-q{
