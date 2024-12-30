@@ -20,14 +20,14 @@
     margin-right: 50px;
     font-family: Calibri;
     font-size:large;
-    text-decoration: none;
     text-align: center;
 }
 
 .menu-item-last{
     color:white;
     font-family: Calibri;
-    font-size:large;    
+    font-size:large; 
+    text-decoration: none;   
 }
 
 .image-main{
