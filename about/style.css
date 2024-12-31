@@ -68,3 +68,11 @@ a{
     margin-right: auto;
     width: 20%;
 }
+
+.footer{
+    font-family: Arial;
+    font-weight: lighter;
+    font-size:medium;
+    color:gray;
+    text-align: center;
+}

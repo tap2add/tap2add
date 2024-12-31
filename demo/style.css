@@ -87,3 +87,12 @@ body {
     width: 100px;
     margin-top: 0px;
 }
+
+
+.footer{
+    font-family: Arial;
+    font-weight: lighter;
+    font-size:medium;
+    color:gray;
+    text-align: center;
+}
