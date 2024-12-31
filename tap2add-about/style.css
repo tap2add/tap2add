@@ -1,0 +1,38 @@
+.intro{
+    font-family: Arial;
+    font-size: xx-large;
+
+}
+
+.main{
+    font-family:Arial;
+    font-size:medium;
+}
+
+.image-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+
+a{
+    text-decoration:none;
+}
+
+.bottom-button{
+    background-color: blueviolet;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    color:white;
+}
+
+.before-btn{
+    text-align: center;
+    font-family: Arial;
+    
+}
