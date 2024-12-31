@@ -36,3 +36,24 @@ a{
     font-family: Arial;
     
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item{
+    color:white;
+    margin-right: 50px;
+    font-family: Calibri;
+    font-size:large;
+    text-align: center;
+}
+
+.menu-item-last{
+    color:white;
+    font-family: Calibri;
+    font-size:large; 
+    text-decoration: none;   
+}
