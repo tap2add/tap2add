@@ -57,3 +57,7 @@ a{
     font-size:large; 
     text-decoration: none;   
 }
+
+.header {
+    background-color: rgb(70, 70, 70);
+}
