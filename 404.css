@@ -1,0 +1,24 @@
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-h1{
+    text-align: center;
+    font-family: Arial;
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    color: white;
+    width:150px;
+    height:50px;
+    border-radius: 30px;
+    
+}
+a{text-decoration: none;}
