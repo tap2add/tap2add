@@ -1,6 +1,17 @@
+@keyframes fade-in {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .header {
     background-color: rgb(70, 70, 70);
 }
+
 
 .logo{
     display: block;
@@ -44,6 +55,7 @@
 }
 
 .main1-p{
+
     color:rgb(0, 0, 0);
     font-family: Arial;
     font-size: large;
@@ -53,6 +65,7 @@
 }
 
 .main1-h1{
+    animation:fade-in 2s ease-in-out;
     font-family: Arial;
     font-size: xx-large;
 }
