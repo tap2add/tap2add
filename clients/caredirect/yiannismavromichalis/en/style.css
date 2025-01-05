@@ -10,12 +10,21 @@ body {
         opacity: 1;
     }
 }
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30;
+.lang{
+    display: flex;
+    margin-right: 0px;
 }
+
+.lang-flag{
+    margin-top: 10px;
+    width:45px;
+    height:auto;
+    margin-right: 70px;
+}
+
+.logo{
+    margin-top: 10px;
+    height: 25px;}
 
 .name {
     text-align: center;

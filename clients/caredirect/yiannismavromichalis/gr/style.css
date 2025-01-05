@@ -1,0 +1,95 @@
+body {
+    background-color: rgba(75, 75, 75, 0.445);
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.lang{
+    display: flex;
+    margin-right: 0px;
+}
+
+.lang-flag{
+    margin-top: 10px;
+    width:45px;
+    height:auto;
+    margin-right: 70px;
+}
+
+.logo{
+    margin-top: 10px;
+    height: 25px;
+
+}
+.name {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
+}
+.pfp {
+    animation: fade-in 1s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.subheading {
+    text-align: center;
+    font-weight: lighter;
+    color: rgba(3, 3, 3, 0.733);
+}
+
+.intro_ci{
+    font-family: Arial;
+    font-size:large;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+
+}
+
+.contact_img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact_a {
+    color:black;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.vcard {
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+
+}
+
+.social_img {
+    width: 40px;
+    height: 60px;
+}
+
+.flag_img {
+    width: 50px;
+    height: 30px;
+}
