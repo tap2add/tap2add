@@ -1,0 +1,119 @@
+@keyframes fade-in{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+body{
+    background-color:black;
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    animation: fade-in 2.5s;
+}
+
+.title {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    text-align: center;
+
+}
+
+.word {
+    font-size: x-large; 
+    font-weight: bold; 
+    font-family:Helvetica;
+}
+
+.red { color: red; }
+.green { color: green; }
+.blue { color: blue; }
+
+.services {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff6b50;
+    letter-spacing: 7px;
+    line-height: 40px;
+    text-shadow: 2px 2px 4px rgba(255, 100, 50, 0.6);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block; 
+
+}
+
+.services2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff6b50;
+    letter-spacing: 7px;
+    line-height: 40px;
+    text-shadow: 2px 2px 4px rgba(255, 100, 50, 0.6);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+
+    
+}
+
+.contact{
+    color:white;
+    font-family:Arial;
+}
+
+.contact-intro{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-item-img{
+    width:40px;
+    margin-left:20px;
+}
+
+.contact-item-value{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-items: baseline;
+}
+
+.contact-item-value:hover{
+    color:#ff6b50;
+}
+
+.tap2add-footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.footer-truss{
+    width:100%;
+    box-sizing: border-box;
+    height:70px;
+}
