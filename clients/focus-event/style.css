@@ -119,20 +119,21 @@ body{
 }
 
 
-.footer-truss-left, .footer-truss-right {
-    position: absolute;
-    top: 50%;   /* Κεντράρισμα κάθετα */
-    transform: translateY(-50%); /* Κεντράρισμα κάθετα */
-    width: 100px;  /* Προσαρμόστε το μέγεθος σύμφωνα με τις ανάγκες */
-    height: auto;
+.side-border {
+    position: fixed; /* Παραμένει σταθερό */
+    top: 0;
+    width: 50px; /* Ρύθμισε το πλάτος ανάλογα με το design σου */
+    height: 100vh; /* Καλύπτει όλο το ύψος της οθόνης */
+    background: url('truss.png') center center repeat-y;
+    background-size: contain; /* Ή cover αν θες να γεμίζει */
+    z-index: 10; /* Φρόντισε να είναι πάνω από το περιεχόμενο */
 }
 
-
-.footer-truss-left {
-    left: 0;  /* Τοποθέτηση αριστερά */
+.left {
+    left: 0;
 }
 
-
-.footer-truss-right {
-    right: 0;  /* Τοποθέτηση δεξιά */
+.right {
+    right: 0;
 }
+
