@@ -122,7 +122,7 @@ body{
 .side-border {
     position: absolute; /* Παραμένει σταθερό */
     top: 0;
-    width: 50px; /* Ρύθμισε το πλάτος ανάλογα με το design σου */
+    width: 22px; /* Ρύθμισε το πλάτος ανάλογα με το design σου */
     height: 100vh; /* Καλύπτει όλο το ύψος της οθόνης */
     background: url('truss-side.png') center center repeat-y;
     background-size: contain; 
