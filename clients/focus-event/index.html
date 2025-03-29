@@ -59,21 +59,18 @@
             const footer = document.querySelector(".footer");
         
             function updateBorders() {
-                let footerTop = footer.getBoundingClientRect().top;
+                let footerRect = footer.getBoundingClientRect();
                 let windowHeight = window.innerHeight;
-        
-                if (footerTop <= windowHeight) {
-                    // Stop scrolling and fix at footer
-                    leftBorder.style.position = "absolute";
-                    rightBorder.style.position = "absolute";
-                    leftBorder.style.bottom = "0";
-                    rightBorder.style.bottom = "0";
+                
+                if (footerRect.top <= windowHeight) {
+                    // Σταματάει τα side borders στο footer
+                    let offset = footerRect.top - windowHeight;
+                    leftBorder.style.transform = `translateY(${offset}px)`;
+                    rightBorder.style.transform = `translateY(${offset}px)`;
                 } else {
-                    // Keep fixed while scrolling
-                    leftBorder.style.position = "fixed";
-                    rightBorder.style.position = "fixed";
-                    leftBorder.style.bottom = "";
-                    rightBorder.style.bottom = "";
+                    // Κρατάει τα side borders σταθερά ενώ κάνεις scroll
+                    leftBorder.style.transform = "translateY(0)";
+                    rightBorder.style.transform = "translateY(0)";
                 }
             }
         
@@ -81,6 +78,7 @@
             updateBorders();
         });
         </script>
+        
          
 </body>
 </html>
