@@ -117,3 +117,22 @@ body{
     box-sizing: border-box;
     height:70px;
 }
+
+
+.footer-truss-left, .footer-truss-right {
+    position: absolute;
+    top: 50%;   /* Κεντράρισμα κάθετα */
+    transform: translateY(-50%); /* Κεντράρισμα κάθετα */
+    width: 100px;  /* Προσαρμόστε το μέγεθος σύμφωνα με τις ανάγκες */
+    height: auto;
+}
+
+
+.footer-truss-left {
+    left: 0;  /* Τοποθέτηση αριστερά */
+}
+
+
+.footer-truss-right {
+    right: 0;  /* Τοποθέτηση δεξιά */
+}
