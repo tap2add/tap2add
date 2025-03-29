@@ -52,6 +52,35 @@
         <a href="https://tap2add.gr"><img class="tap2add-footer" alt="tap2add" src="tap2add.png"></a>
         <img alt="truss" src="truss.png" class="footer-truss">
     </div>
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const leftBorder = document.querySelector(".side-border.left");
+            const rightBorder = document.querySelector(".side-border.right");
+            const footer = document.querySelector(".footer");
+        
+            function updateBorders() {
+                let footerTop = footer.getBoundingClientRect().top;
+                let windowHeight = window.innerHeight;
+        
+                if (footerTop <= windowHeight) {
+                    // Stop scrolling and fix at footer
+                    leftBorder.style.position = "absolute";
+                    rightBorder.style.position = "absolute";
+                    leftBorder.style.bottom = "0";
+                    rightBorder.style.bottom = "0";
+                } else {
+                    // Keep fixed while scrolling
+                    leftBorder.style.position = "fixed";
+                    rightBorder.style.position = "fixed";
+                    leftBorder.style.bottom = "";
+                    rightBorder.style.bottom = "";
+                }
+            }
+        
+            window.addEventListener("scroll", updateBorders);
+            updateBorders();
+        });
+        </script>
+         
 </body>
 </html>
