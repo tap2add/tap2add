@@ -121,7 +121,7 @@ body{
 
 
 .side-border {
-    position: absolute; /* Παραμένει σταθερό */
+    position: fixed; /* Παραμένει σταθερό */
     top: 0;
     width: 22px; /* Ρύθμισε το πλάτος ανάλογα με το design σου */
     height: 100%; /* Καλύπτει όλο το ύψος της οθόνης */
