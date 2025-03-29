@@ -124,7 +124,7 @@ body{
     top: 0;
     width: 50px; /* Ρύθμισε το πλάτος ανάλογα με το design σου */
     height: 100vh; /* Καλύπτει όλο το ύψος της οθόνης */
-    background: url('truss.png') center center repeat-y;
+    background: url('truss-side.png') center center repeat-y;
     background-size: contain; 
     z-index: -1; 
 }
