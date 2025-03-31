@@ -55,5 +55,11 @@ body{
     color:white;
     text-decoration: none;
     font-weight:bolder;
+}
 
+.tap2add{
+    position: absolute;
+    right: 0%;
+    width: 40%;
+    margin-top: 0px;
 }
