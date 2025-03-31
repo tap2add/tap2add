@@ -17,6 +17,11 @@
     <link rel="icon" type="image/x-icon" href="images/care.ico">
 </head>
 <body>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
+      </div>
+      
     <br>
     <div class="lang">
         <a href="https://tap2add.gr/clients/caredirect/yiannismavromichalis/gr"><img alt="en" src="images/gr.png" class="lang-flag"></a>
@@ -57,6 +62,16 @@
         <img alt="linkedin" src="images/linkedin.png" class="social_img">
 
     </div>
-
+    <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
+      
 </body>
 </html>
