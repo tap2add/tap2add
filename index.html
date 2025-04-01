@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap2Add | Ένας νέος τρόπος επαγγελματικών καρτών</title>
+    <link rel="stylesheet" href="argur.css">
+</head>
+<body>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
+      </div>
+    <div class="header">
+        <img alt="logo" src="tap2add-white.png" class="header-logo">
+        <div class="header-menu">
+            <a class="header-menu-item">Αρχική</a>
+            <a class="header-menu-item" href="https://tap2add.gr/about">Σχετικά με εμάς</a>
+            <a class="header-menu-item" href="https://tap2add.gr/demo">Σελίδα Demo</a>
+     </div>
+    </div><br
+    <div class="main">
+        <img src="main.jpg" class="main-image" alt="main">
+        <i><h3 class="main-h3">Δικτυωθείτε με ένα άγγιγμα:</h3></i>
+        <p class="main-sub">Οι επαγγελματικές κάρτες της Tap2Add, προσφέρουν <br>
+        την τελευταία λέξη της τεχνολογίας, στην καθημερινότητα του κόσμου.
+        Ο κάτοχος της κάρτας αυτής, μπορεί να μοιραστεί τα επαγγελματικά του στοιχεία ,μόνο με
+        μόνο με το αγγιγμα της κάρτας στο κινητό του πελάτη.
+        </p>
+        <div class="vid-container">
+        <video src="vid.mp4" muted autoplay loop class="vid"></video>
+        <div class="container-text">
+            <h3 class="container-text-head">Είναι τόσο απλό</h3>
+            <p class="container-text-body">Όπως φαίνεται και στο βίντεο, η μεταφορά
+                των στοιχείων σας γίνεται τόσο απλά. Οι κάρτες μας, δίνουν και το 
+                δικαιωμά στον πελάτη, να σας αποθηκεύσει ως επαφή στο κινητό του.
+            </p>
+        </div>
+        </div>
+        <a class='btn-a' href="mailto:tap2addgr@gmail.com"><button class="button-i">Ενδιαφερομαι</button></a>
+        <div id="qna" class="qna">
+            <h2 class="qna-intro">Συχνές Ερωτήσεις:</h2>
+            <b class="qna-q">1. Τι είναι οι Tap2Add NFC κάρτες;</b>
+            <p class="qna-a">Οι Tap2Add είναι έξυπνες επαγγελματικές κάρτες που επιτρέπουν την άμεση μεταφορά των στοιχείων σας σε ένα smartphone μέσω NFC ή QR code.</p>
+            <b class="qna-q">2. Πώς μπορώ να αλλάξω τα στοιχεία μου;</b>
+            <p class="qna-a">Σε περίπτωση αλλαγής στοιχείων, ενημερώνετε την ομάδα μας μέσω e-mail στο <a href="mailto:tap2addgr@gmail.com">tap2addgr@gmail.com</a>, και ενημερώνουμε τη σελίδα σας άμεσα.</p>
+            <b class="qna-q">3. Τι γίνεται αν χάσω την κάρτα μου;</b>
+            <p class="qna-a">Σε περίπτωση απώλειας, η κάρτα μπορεί μόνο να διαβαστεί. Μπορείτε να παραγγείλετε νέα κάρτα με τον ίδιο σύνδεσμο.</p>
+            <b class="qna-q">4. Είναι οι κάρτες οικολογικές;</b>
+            <p class="qna-a">Ναι, οι Tap2Add NFC κάρτες είναι επαναχρησιμοποιούμενες και βοηθούν στη μείωση της χρήσης χαρτιού.</p>
+            <b class="qna-q">5. Σε ποιες συσκευές λειτουργούν;</b>
+            <p class="qna-a">Οι κάρτες είναι συμβατές με όλα τα smartphones που υποστηρίζουν NFC ή μπορούν να διαβάσουν QR codes.</p>
+            <b class="qna-q">6. Μπορώ να προσθέσω πολλαπλούς συνδέσμους;</b>
+            <p class="qna-a">Ναι, μπορείτε να προσθέσετε συνδέσμους για social media, ιστοσελίδες, τηλέφωνα και e-mails.</p>
+            <b class="qna-q">7. Πόσος χρόνος χρειάζεται για να λάβω την κάρτα;</b>
+            <p class="qna-a">Η κάρτα αποστέλλεται μέσα σε 3-5 εργάσιμες ημέρες από την παραγγελία σας.</p>
+            <b class="qna-q">8. Μπορώ να χρησιμοποιήσω την κάρτα σε επαγγελματικές εκθέσεις;</b>
+            <p class="qna-a">Φυσικά! Οι Tap2Add κάρτες είναι ιδανικές για επαγγελματική δικτύωση σε εκθέσεις και εκδηλώσεις.</p>
+            <b class="qna-q">9. Πώς μπορώ να παραγγείλω μια κάρτα;</b>
+            <p class="qna-a">Μπορείτε να μας στείλετε μήνυμα στο <a href="mailto:tap2addgr@gmail.com">tap2addgr@gmail.com</a> για να ξεκινήσετε τη διαδικασία παραγγελίας.</p>
+            <h2 class="qna-intro">Έτοιμοι για αγορά;</h2>
+            <a class="btn-a" href='mailto:tap2addgr@gmail.com'><button type="button" class="button-i">ΔΗΛΩΣΗ ΕΝΔΙΑΦΕΡΟΝΤΟΣ</button></a>
+        </div>
+    </div>
+    <div class="footer">
+      <p class="footer-p1">Επικοινωνία: tap2addgr@gmail.com</p> 
+      <p class="footer-p1">Βρείτε μας στα:</p>
+      <div class="footer-images">
+        <img class="footer-img" src="ig.jpg">
+        <img class="footer-img" src="mail.png">
+      </div>
+
+    </div>  
+    </div>
+    <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
+</body>
+</html>
