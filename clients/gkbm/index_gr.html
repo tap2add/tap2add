@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filippos Chazapis</title>
+    <title>Φίλιππος Χαζάπης</title>
     <link rel="stylesheet" href="style-en.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:title" content="Φίλιππος Χαζάπης">
+    <meta property="og:description" content="Ανακάλυψε τις πληροφορίες του Filippos μέσω του Tap2Add!!">
 </head>
 <body>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
+      </div>
     <div class="main">
         <div class="lang-bar">
             <a href="index.html" ><img class="flag-uk" alt="flag-uk" src="flaguk.webp"></a>
@@ -52,5 +60,15 @@
     <div class="footer">
         <a href='https://tap2add.gr'><img class="tap2add" alt="tap2add" src="tap2add-white.png"></a>
     </div>
+    <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
 </body>
 </html>
