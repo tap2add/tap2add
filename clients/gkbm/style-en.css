@@ -1,3 +1,8 @@
+@keyframes fade-in{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
 body{
     background-color: rgb(5, 55, 73);
 }
@@ -6,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:10px;
+    animation: fade-in;
 }
 .lang-bar {
     display: flex;
