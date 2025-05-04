@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Yiannis Papadopoulos
+ORG:Tap2Add
+TITLE:CEO
+TEL;TYPE=work,voice:2109999999
+TEL;TYPE=cell,voice:6900000000
+EMAIL:name@email.com
+ADR;TYPE=work:;;30 Papadopoulou Ave;Athens;;99999;Greece
+URL:https://website.gr/
+END:VCARD

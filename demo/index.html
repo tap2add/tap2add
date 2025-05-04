@@ -1,21 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
-    
-    <link rel="stylesheet" href="style.css">
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4PKM9N2C1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+        
+              gtag('config', 'G-E4PKM9N2C1');
+            </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Γιάννης Παπαδόπουλος</title>
+    <title>Γιάννης Παπαδόπουλος - Πληροφορίες</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img class="logo" src="tap2add.png" alt="logo">
-    <img class="pfp" src="pfp.webp" alt="logo">
-    <h2 class="name">Γιάννης Παπαδόπουλος</h2><br>
-    <div class="dd">
-    <h2 class="title">Owner | Παπαδόπουλος ΑΕ</h2>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
+      </div>
+   <div class="header">
+    <div class="langbar">
+      <a href="index.html"><img alt="Greek" src="GR.png"></a>
+      <a href="index-en.html"><img alt="English" src="GB.png"></a>
     </div>
-    <hr color="black"><hr color="black">
-    <h2 class="begin-info">Στοιχεία επικοινωνίας: </h2>
+    <img class="logo-header" src="tap2add.png" alt="Company logo">
+   </div> 
+   <div class="card-mini">
+    <img class="pfp" alt="pfp" src="pfp.webp">
+    <h2>Γιάννης Παπαδόπουλος</h2>
+    <h4>Tap2Add CEO</h4>
+    <div class='social-media'>
+        <a><img alt="instagram" src="ig.png"></a>
+    </div>
+   </div>
+   <h3 class="intro-contact">Στοιχεία επικοινωνίας:</h3>
+   <div class="options">
     <div class="info" id="address">
         <img class="info-imga" alt="address"src="address.png">
         <a class="info-txt" href="">Λεωφ. Παπαδοπούλου 30, Αθήνα 999 99</a>
@@ -41,7 +62,16 @@
     <a class="info-txtc" href="vcard.vcf">Προσθήκη στις επαφές</a>
     <hr color="black">
     <a href="http://tap2add.gr"><img class="footer-logo" src="tap2add.png" alt="logo"></a>
-    
-
+   </div>
+   <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+  
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
 </body>
 </html>

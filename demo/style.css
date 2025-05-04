@@ -1,51 +1,72 @@
-body {
-    background-color:#ffffff;
+@keyframes fade-in{
+    from{opacity:0}
+    to{opacity: 1;}
 }
-@keyframes fade-in {
-    from{
-        opacity: 0;
 
-    }
-    to{
-        opacity: 1;
-    }
+body{
+    background-color: white;
+
 }
-.logo{
+.header{
+    display: block;
+}
+.langbar{
+    display: flex;
+    gap:10px;
+}
+
+.logo-header{
+    width:50%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    margin-right:auto;
+}
+
+.card-mini{
+    animation: fade-in 2s;
+    display: block;
+    background: rgba(68, 68, 67, 0.473);
 }
 
 .pfp{
-    animation: fade-in 1s ease-in-out;
-    margin-top:10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height:170;
-    border-radius:100%;
-    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 100%;
+    padding-top:10px;
 }
-.name{
-    font-family:Arial;
-    text-align: center;
-    margin-bottom:0px;
-    margin-top:0px;
-}
-.title{
-    font-family: Arial;
-    text-align: center;
-    font-size:medium;
-    font-weight:normal;
-    margin-top:0px;
+
+.card-mini h2{
     color:white;
-}
-.begin-info{
     font-family: Arial;
-    font-size:x-large;
-    margin-bottom: 10px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    font-size:xx-large;
+    margin-bottom:3px;
+}
+
+.card-mini h4{
+    color:white;
+    text-align: center;
+    font-size:large;
+    margin-top: 3px;
+    font-family: Arial;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-bottom: 10px;
+}
+
+.social-media img{
+    width:45px;
+}
+
+.intro-contact{
+    font-family:Arial;
 }
 
 .info {
@@ -61,7 +82,7 @@ body {
 
 .info-txt{
     text-decoration: none;
-    color:rgb(15, 71, 0);
+    color:rgb(0, 0, 0);
     font-family: Arial;
     font-size: large;
     
@@ -88,8 +109,6 @@ body {
     margin-right:10px;
 }
 
-
-
 .footer-logo{
     position: absolute;
     right: 0%;
@@ -105,3 +124,4 @@ body {
     color:gray;
     text-align: center;
 }
+
