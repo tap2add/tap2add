@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4PKM9N2C1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-E4PKM9N2C1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Tap2Add</title>
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
+    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>This website uses cookies for a better experience!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">I Accept</button>
+      </div>
     <div class="header">
         <div class="lang-bar">
             <a href="https://tap2add.gr/about"><img src="GR.png" class="flag" alt="flag"></a>
@@ -42,5 +54,15 @@
             <a href="mailto:tap2addgr@gmail.com"><img alt="Email" src="mail.png"></a>
         </div>
     </div>
+    <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
 </body>
 </html>
