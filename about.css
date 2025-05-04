@@ -24,51 +24,18 @@ body{
     font-size: large;
 }
 
-.intro-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.h2-under-img{
-    text-align: center;
-    color:white;
-    font-family: Arial;
-}
-
-.split-menu{
-    background: rgba(255, 255, 255, 0.568);
-    display:flex;
-    justify-content: center;
-    gap:50px;
-}
-
-video{
-    border-radius: 4px;
-    padding:1%;
-
-}
-
-.qna {
-    text-align: center;
-    font-family: Arial;
-}
-
-.qna p{
-    font-size: large;
-}
-
-button{
-    background-color: green;
-    border-radius: 4px;
-    color:white;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: center;
-    text-align: center;
-    display: block;
+.about-us{
     font-size: xx-large;
-    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.main-text{
+    color:white;
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
 }
 
 .footer{
@@ -91,21 +58,11 @@ button{
     width:53px;
 }
 
-@media (max-width:768px) {
-    .intro-img{
-        width:100%;
-    }
-
+@media(max-width:768px){
     .a-menu{
         font-size: small;
     }
-
-    .split-menu{
-        flex-direction: column-reverse;
-    }
-
     .logo-header{
         width:50%;
     }
 }
-
