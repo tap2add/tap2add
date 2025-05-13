@@ -51,10 +51,12 @@ a{
 .main-card h3{
     margin-top: 0px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .main-card h1{
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .social-media{
