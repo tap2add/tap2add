@@ -46,7 +46,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
-    width:50%;
+    width:25%;
 }
 
 .main-card h3{
@@ -136,5 +136,9 @@ a{
 
     .footer{
         width:100px;
+    }
+
+    .pfp{
+        width:50%;
     }
 }
