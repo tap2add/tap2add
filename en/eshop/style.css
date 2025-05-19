@@ -110,7 +110,7 @@ body{
 
     .menu-header{
         gap:10px;
-        width: fit-content;
+        width: 100%;
     }
 
     .product-list{
