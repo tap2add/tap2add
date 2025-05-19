@@ -59,8 +59,9 @@ body{
 }
 
 @media(max-width:768px){
+    
     .a-menu{
-        font-size: small;
+        font-size: x-small;
     }
     .logo-header{
         width:50%;

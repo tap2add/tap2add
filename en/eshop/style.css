@@ -80,9 +80,11 @@ body{
 }
 
 @media (max-width:768px) {
-
+    .product button{
+        font-size: medium;
+    }
     .a-menu{
-        font-size: small;
+        font-size: x-small;
     }
 
     .product-list{
