@@ -20,6 +20,10 @@ body{
 
 }
 
+.intro-h1{
+  color:white;
+  text-align: center;
+}
 .a-menu{
     text-decoration: none;
     color:black;
