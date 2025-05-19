@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="el-GR">
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9347878049886625"
+     crossorigin="anonymous"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4PKM9N2C1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+    
+          gtag('config', 'G-E4PKM9N2C1');
+        </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo user | Tap2Add Premium</title>
@@ -8,6 +19,10 @@
     <link rel="icon" href="media/favicon.ico" type="image/x-icon">
 </head>
 <body>
+        <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
+      </div>
     <div class="header">
         <img class="logo-header" alt="Header Logo" src="media/logo.png">
         <div class="langbar">
@@ -50,5 +65,15 @@
         <p>Προσθήκη στις επαφές</p>
     </button></a>
     <img class='footer' alt="Tap2Add" src="media/tap2add.png">
+        <script>
+        function acceptCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+          localStorage.setItem('cookiesAccepted', 'true');
+        }
+      
+        if (localStorage.getItem('cookiesAccepted')) {
+          document.getElementById('cookie-banner').style.display = 'none';
+        }
+      </script>
 </body>
 </html>
