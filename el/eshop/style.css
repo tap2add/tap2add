@@ -110,10 +110,6 @@ body{
         width: fit-content;
     }
 
-    .product-list{
-        flex-direction: column-reverse;
-        gap: 15px;
-    }
 
     .logo-header{
         width:50%;

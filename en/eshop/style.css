@@ -87,7 +87,9 @@ body{
       .comparison-table {
     grid-template-columns: 1fr;
   }
-
+    .sheet-image{
+    width:20%
+  }
   .feature-title,
   .feature-basic,
   .feature-premium {
