@@ -90,7 +90,9 @@ body{
     grid-template-columns: 1fr;
   }
     .sheet-image{
-    width:fit-content;
+     width: 100%;
+    height: auto;
+
   }
   .feature-title,
   .feature-basic,
