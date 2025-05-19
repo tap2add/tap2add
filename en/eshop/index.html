@@ -9,6 +9,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
       gtag('config', 'G-E4PKM9N2C1');
     </script>
     <meta charset="UTF-8">
@@ -20,8 +21,8 @@
 <body>
     <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
         <span>This website uses cookies for a better experience!</span>
-        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">I Accept</button>
-      </div>
+        <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Accept</button>
+    </div>
     <div class="header">
         <div class="lang-bar">
             <a href="https://tap2add.gr/el/eshop"><img src="media/GR.png" class="flag" alt="flag"></a>
@@ -29,47 +30,55 @@
         </div>
         <img class="logo-header" src="media/logo.png" alt="logo">
         <div class="menu-header">
-            <a class="a-menu" href="https://tap2add.gr/en">Home</a>
+            <a class="a-menu" href="https://tap2add.gr">Home</a>
             <a class="a-menu" href="https://tap2add.gr/en/about">About Us</a>
-            <a class="a-menu" href="https://tap2add.gr/en/demo">Demo Page</a>
+            <a class="a-menu" href="https://tap2add.gr/en/demo/">Demo Page</a>
             <a class="a-menu" href="https://tap2add.gr/en/contact">Contact</a>
             <a class="a-menu" href="https://tap2add.gr/en/eshop">Online Purchase</a>
-        </div>>
-    </div><br>
-    <h1 class="intro-h1">Online Purchase</h1>
-    <div class="product-list">
-        <div class="product">
-            <h2>Tap2Add <span class="premium-text">Premium</span>🌟</h2>
-            <img alt="product-img" src="media/premium-1.jpg">
-            <ul>
-                <li>One-time purchase, no recurring fees</li>
-                <li>No ads</li>
-                <li>Comes with case and lanyard</li>
-            </ul>
-            <h3>Price: €18 one-time</h3>
-            <a href="https://buy.stripe.com/9B6aEY3Kz80q4Qf7OMds402"><button>Buy Now</button></a>
         </div>
-        <div class="product">
-            <h2>Tap2Add Basic</h2>
-            <img alt="product-img" src="media/naked.jpg">
-            <ul>
-                <li>One-time purchase, no recurring fees</li>
-                <li>Includes small ads on the page</li>
-                <li>Comes without case or lanyard</li>
-            </ul>
-            <h3>Price: €10 one-time</h3>
-            <a href="https://buy.stripe.com/00w8wQgxl94ubeDb0Yds403"><button>Buy Now</button></a>
+    </div><br>
+    <h1>Product Comparison</h1>
+    <div class="comparison-table">
+        <div class="feature-row">
+            <div class="feature-title">Feature</div>
+            <div class="feature-basic">Basic</div>
+            <div class="feature-premium">Premium</div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-title">Price</div>
+            <div class="feature-basic">€10</div>
+            <div class="feature-premium">€18</div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-title">Advertisements</div>
+            <div class="feature-basic">Yes</div>
+            <div class="feature-premium">No</div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-title">Includes Case & Lanyard</div>
+            <div class="feature-basic">No</div>
+            <div class="feature-premium">Yes</div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-title">Demo Page</div>
+            <div class="feature-basic"><a href="https://tap2add.gr/clients/basic-demo/el/" target="_blank">View</a></div>
+            <div class="feature-premium"><a href="https://tap2add.gr/en/demo/" target="_blank">View</a></div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-title">Purchase</div>
+            <div class="feature-basic"><a href="https://buy.stripe.com/00w8wQgxl94ubeDb0Yds403" class="buy-button">Buy Basic</a></div>
+            <div class="feature-premium"><a href="https://buy.stripe.com/9B6aEY3Kz80q4Qf7OMds402" class="buy-button">Buy Premium</a></div>
         </div>
     </div>
-        <script>
-        function acceptCookies() {
-          document.getElementById('cookie-banner').style.display = 'none';
-          localStorage.setItem('cookiesAccepted', 'true');
-        }
-      
-        if (localStorage.getItem('cookiesAccepted')) {
-          document.getElementById('cookie-banner').style.display = 'none';
-        }
-      </script>
+    <script>
+    function acceptCookies() {
+        document.getElementById('cookie-banner').style.display = 'none';
+        localStorage.setItem('cookiesAccepted', 'true');
+    }
+
+    if (localStorage.getItem('cookiesAccepted')) {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    </script>
 </body>
 </html>
