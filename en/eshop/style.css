@@ -48,7 +48,9 @@ body{
   text-align: center;
   margin-bottom: 40px;
 }
-
+  .sheet-image{
+    width:10%
+  }
 .comparison-table {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
