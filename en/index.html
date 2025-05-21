@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Tap2Add</title>
     <link rel="stylesheet" href="/styles/home.css">
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <link rel="icon" type="x-icon" href="/media/favicon.ico">
 </head>
 <body>
     <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
@@ -23,62 +23,64 @@
         <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">I Accept</button>
       </div>
     <div class="header">
-        <div class="lang-bar">
-            <a href="https://tap2add.gr/"><img src="/media/GR.png" class="flag" alt="flag"></a>
-            <a href="https://tap2add.gr/en"><img class="flag" alt="flag" src="/media/GB.png"></a>
-        </div>
-        <img class="logo-header" src="/media/logo.png" alt="logo">
+        <img class="header-logo" alt="Logo" src="//media/logo.png">
         <div class="menu-header">
-            <a class="a-menu" href="https://tap2add.gr/en">Home</a>
-            <a class="a-menu" href="https://tap2add.gr/en/about">About Us</a>
-            <a class="a-menu" href="https://tap2add.gr/en/demo">Demo Page</a>
-            <a class="a-menu" href="https://tap2add.gr/en/contact">Contact</a>
-            <a class="a-menu" href="https://tap2add.gr/en/eshop">Online Purchase</a>
+            <a href="/en">Home</a>
+            <a href="/en/contact/">Contact</a>
+            <a href="/en/demo/">Demo</a>
+            <a href="/en/eshop/">E-shop</a>
         </div>
-    </div><br>
-    <img class="intro-img" alt="tap2add" src="/media/main.png">
-    <h2 class="h2-under-img">Network with a Tap</h2>
-    <div class="split-menu">
-        <video src="/media/vid.mp4" muted autoplay loop></video>
-        <div class="qna">
-            <h3>Frequently Asked Questions</h3>
-            <p><b>1. What are Tap2Add NFC cards?</b><br>
-                Tap2Add cards are smart business cards that allow you to instantly share your contact details with a smartphone via NFC or QR code.
-                <br>
-                <b>2. How can I change my details?</b><br>
-                If you need to update your details, email our team at tap2addgr@gmail.com and we’ll update your page promptly.
-                <br>
-                <b>3. What if I lose my card?</b><br>
-                If lost, the card can only be read. You can order a new one with the same link.
-                <br>
-                <b>4. Are the cards eco-friendly?</b><br>
-                Yes, Tap2Add NFC cards are reusable and help reduce paper usage.
-                <br>
-                <b>5. What devices are supported?</b><br>
-                The cards are compatible with all smartphones that support NFC or can read QR codes.
-                <br>
-                <b>6. Can I add multiple links?</b><br>
-                Yes, you can add links to social /media, websites, phone numbers, and emails.
-                <br>
-                <b>7. How long does it take to receive the card?</b><br>
-                The card is shipped within 3-5 business days from your order.
-                <br>
-                <b>8. Can I use the card at trade shows?</b><br>
-                Absolutely! Tap2Add cards are perfect for networking at exhibitions and events.
-                <br>
-                <b>9. How do I order a card?</b><br>
-                You can email us at tap2addgr@gmail.com to start your order.
-            </p>
+        <div class="lang-bar">
+            <a href="/el/index.html"><img src='/media/GR.png' alt='GR'></a>
+            <a href="/en/index.html"><img src='/media/GB.png' alt='GB'></a>
         </div>
     </div>
     <br>
-    <a href="https://tap2add.gr/demo"><button>See a Demo</button></a><br>
-    <div class="footer">
-        <img class="logo-footer" alt="logo footer" src="/media/logo.png">
-        <div class="social-footer">
-            <a href="https://www.instagram.com/tap2add.gr/#"><img alt="Instagram" src="/media/ig.png"></a>
-            <a href="mailto:tap2addgr@gmail.com"><img alt="Email" src="/media/mail.png"></a>
+    <div class="hero-content">
+        <h1>Add to contacts with a tap.<br>
+        No apps. No hassle.</h1>
+        <img src="/media/taplive.png" alt="Main image">
+    </div>
+    <br><br><br>
+    <div class="icons">
+        <div class="icon">
+            <img alt="Icon 1" src="/media/icon-1.png">
+            <p>Bring the phone <br>close to the card</p>
         </div>
+        <div class="icon">
+            <img alt="Icon 1" src="/media/icon-2.png">
+            <p>Get info</p>
+        </div>
+        <div class="icon">
+            <img alt="Icon 1" src="/media/icon-3.png">
+            <p>Add to contacts</p>
+        </div>
+    </div><br>
+    <a href="#" ><button class="demo-button">SEE IT LIVE</button></a>
+    <br>
+    <div class="split-menu">
+        <div class="video-menu">
+            <video src="/media/vid.mp4" autoplay muted loop></video>
+        </div>
+        <div class="suitable">
+            <h2>Pefect for:</h2>
+            <br>
+            <p>
+✔️ Personal online profile<br>
+✔️ Social /media links<br>
+✔️ Instant contact saving<br>
+✔️ Custom branding<br>
+✔️ No app needed</p>
+        </div>
+
+        </div>
+    </div><br>
+    <div class="buttons-flex">
+         <a href="#" ><button class="demo-button">SEE IT LIVE</button></a>
+        <a href="#" ><button class="demo-button">BUY NOW</button></a>
+    </div><br><br>
+    <div class="footer">
+        <img alt="taplogo" src="/media/taplogo.png">
     </div>
     <script>
         function acceptCookies() {

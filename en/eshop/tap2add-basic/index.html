@@ -14,12 +14,12 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-shop | Tap2Add</title>
-    <link rel="stylesheet" href="/styles/eshop.css">
+    <title>Tap2Add Basic</title>
+    <link rel="stylesheet" href="/styles/products.css">
     <link rel="icon" type="x-icon" href="/media/favicon.ico">
 </head>
 <body>
-    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
         <span>This website uses cookies for a better experience!</span>
         <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Accept</button>
     </div>
@@ -32,36 +32,29 @@
             <a href="/en/eshop/">E-shop</a>
         </div>
         <div class="lang-bar">
-            <a href="/el/eshop/"><img src='/media/GR.png' alt='Ελληνικά'></a>
-            <a href="/en/eshop/"><img src='/media/GB.png' alt='Αγγλικά'></a>
+            <a href="/el/eshop/tap2add-basic/"><img src='/media/GR.png' alt='GR'></a>
+            <a href="/en/eshop/tap2add-basic/"><img src='/media/GB.png' alt='GB'></a>
         </div>
-    </div>
-    <br>
-    <h1 class="intro">Our Products</h1>
-    <div class="products-list">
-        <div class="product">
-            <img src="/media/basic.jpg">
-            <h2>Tap2Add Basic</h2>
-            <h5>€10.00</h5>
+    </div><br><br>
+    <div class="product-page">
+        <img class="product-image" alt="Tap2Add Premium" src="/media/basic.jpg">
+        <div class="product-info">
+            <h1>Tap2Add Basic</h1>
+            <h4>€10.00</h4>
+              <p>Tap2Add Premium is designed for professionals who want to 
+                leave a lasting impression. <br>With just a tap, you can instantly 
+                share your full contact profile — without the need for <br>any 
+                apps or manual entry. Contains ads</p><br>
             <div class="buttons-flex">
-                <a href="#"><button class="demo-button">ΔΕΙΤΕ DEMO</button></a>
-                <a href="#"><button class="demo-button">ΑΓΟΡΑΣΤΕ ΤΩΡΑ</button></a>
+                <a href="#" ><button class="demo-button">SEE A DEMO</button></a>
+                <a href="#" ><button class="demo-button">BUY NOW</button></a>
             </div>
         </div>
-        <div class="product">
-            <img src="/media/premium.jpg">
-            <h2>Tap2Add Premium</h2>
-            <h5>€18.00</h5>
-            <div class="buttons-flex">
-                <a href="#"><button class="demo-button">ΔΕΙΤΕ DEMO</button></a>
-                <a href="#"><button class="demo-button">ΑΓΟΡΑΣΤΕ ΤΩΡΑ</button></a>
-            </div>
-        </div>
-        </div><br><br>
+    </div><br>
     <div class="footer">
         <img alt="taplogo" src="/media/taplogo.png">
     </div>
-    <script>
+        <script>
     function acceptCookies() {
         document.getElementById('cookie-banner').style.display = 'none';
         localStorage.setItem('cookiesAccepted', 'true');
