@@ -14,8 +14,8 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-shop | Tap2Add</title>
-    <link rel="stylesheet" href="/styles/eshop.css">
+    <title>Tap2Add Social</title>
+    <link rel="stylesheet" href="/styles/products.css">
     <link rel="icon" type="x-icon" href="/media/favicon.ico">
     <!-- Primary Meta Tags -->
 <title>Tap2Add </title>
@@ -39,12 +39,12 @@
 <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 <body>
-    <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
         <span>This website uses cookies for a better experience!</span>
         <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Accept</button>
     </div>
     <div class="header">
-        <img class="header-logo" alt="Λογότυπο" src="/media/logo.png">
+        <img class="header-logo" alt="Logo" src="/media/logo.png">
         <div class="menu-header">
             <a href="/en">Home</a>
             <a href="/en/contact/">Contact</a>
@@ -52,45 +52,32 @@
             <a href="/en/eshop/">E-shop</a>
         </div>
         <div class="lang-bar">
-            <a href="/el/eshop/"><img src='/media/GR.png' alt='Ελληνικά'></a>
-            <a href="/en/eshop/"><img src='/media/GB.png' alt='Αγγλικά'></a>
+            <a href="/el/eshop/tap2add-social/"><img src='/media/GR.png' alt='GR'></a>
+            <a href="/en/eshop/tap2add-social/"><img src='/media/GB.png' alt='GB'></a>
         </div>
-    </div>
-    <br>
-    <h1 class="intro">Our Products</h1>
-    <div class="products-list">
-        <div class="product">
-            <img src="/media/basic.jpg">
-            <h2>Tap2Add Basic</h2>
-            <h5>€10.00</h5>
+    </div><br><br>
+    <div class="product-page">
+        <img class="product-image" alt="Tap2Add Premium" src="/media/premium.jpg">
+        <div class="product-info">
+            <h1>Tap2Add Social</h1>
+            <h4>€12.00</h4>
             <div class="buttons-flex">
-                <a href="/en/eshop/tap2add-basic"><button class="demo-button">SEE MORE</button></a>
-                <a href="https://buy.stripe.com/00w8wQgxl94ubeDb0Yds403"><button class="demo-button">BUY NOW</button></a>
-            </div>
+                <a href="/clients/social-demo/" ><button class="demo-button">SEE A DEMO</button></a>
+                <a href="https://buy.stripe.com/28EeVech55SiciHglids404" ><button class="demo-button">BUY NOW</button></a>
+            </div><br>
+              <p><strong>Tap2add Social – Just your socials. Nothing extra.</strong></p>
+                <p>Tap2add Social is made for those who want to share only their social media — fast, clean, and professionally. No ads, sleek lanyard included, and instant access to all your profiles with a single tap.</p>
+                    <p>✅ No ads<br>
+                    ✅ Includes lanyard<br>
+                    ✅ All your socials in one tap<br>
+                    ⚡ Perfect for creators, events, influencers</p>
+                    <p><em>Simplicity. Style. Tap2add.</em></p>
         </div>
-        <div class="product">
-            <img src="/media/social-product-image.jpg">
-            <h2>Tap2Add Social</h2>
-            <h5>€12.00</h5>
-            <div class="buttons-flex">
-                <a href="/en/eshop/tap2add-social"><button class="demo-button">SEE MORE</button></a>
-                <a href="https://buy.stripe.com/28EeVech55SiciHglids404"><button class="demo-button">BUY NOW</button></a>
-            </div>
-        </div>
-        <div class="product">
-            <img src="/media/premium.jpg">
-            <h2>Tap2Add Premium</h2>
-            <h5>€18.00</h5>
-            <div class="buttons-flex">
-                <a href="/en/eshop/tap2add-premium"><button class="demo-button">SEE MORE</button></a>
-                <a href="https://buy.stripe.com/9B6aEY3Kz80q4Qf7OMds402"><button class="demo-button">BUY NOW</button></a>
-            </div>
-        </div>
-        </div><br><br>
+    </div><br>
     <div class="footer">
         <img alt="taplogo" src="/media/taplogo.png">
     </div>
-    <script>
+        <script>
     function acceptCookies() {
         document.getElementById('cookie-banner').style.display = 'none';
         localStorage.setItem('cookiesAccepted', 'true');

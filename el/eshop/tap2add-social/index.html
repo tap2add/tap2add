@@ -14,8 +14,8 @@
         </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Προϊόντα | Tap2Add</title>
-    <link rel="stylesheet" href="/styles/eshop.css">
+    <title>Tap2Add Social</title>
+    <link rel="stylesheet" href="/styles/products.css">
     <link rel="icon" type="x-icon" href="/media/favicon.ico">
     <!-- Primary Meta Tags -->
 <title>Tap2Add </title>
@@ -39,7 +39,7 @@
 <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 <body>
-        <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
+            <div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #222; color: white; padding: 15px; text-align: center; border-radius: 5px; display: flex; justify-content: space-between; align-items: center;">
         <span>Αυτός ο ιστότοπος χρησιμοποιεί cookies για καλύτερη εμπειρία!</span>
         <button onclick="acceptCookies()" style="margin-left: 10px; background: #f1c40f; border: none; padding: 5px 10px; cursor: pointer; color: black; font-weight: bold;">Αποδοχή</button>
       </div>
@@ -52,42 +52,34 @@
             <a href="/el/eshop/">Κατάστημα</a>
         </div>
         <div class="lang-bar">
-            <a href="/el/eshop/"><img src='/media/GR.png' alt='Ελληνικά'></a>
-            <a href="/en/eshop/"><img src='/media/GB.png' alt='Αγγλικά'></a>
+            <a href="/el/eshop/tap2add-social/"><img src='/media/GR.png' alt='GR'></a>
+            <a href="/en/eshop/tap2add-social/"><img src='/media/GB.png' alt='GB'></a>
         </div>
     </div>
-    <br>
-    <h1 class="intro">Τα Προϊόντα μας</h1>
-    <div class="products-list">
-        <div class="product">
-            <img src="/media/basic.jpg" alt="Tap2Add Basic">
-            <h2>Tap2Add Basic</h2>
-            <h5>€10.00</h5>
+    </div><br><br>
+    <div class="product-page">
+        <img class="product-image" alt="Tap2Add Premium" src="/media/premium.jpg">
+        <div class="product-info">
+            <h1>Tap2Add Social</h1>
+            <h4>€12.00</h4>
             <div class="buttons-flex">
-                <a href="/el/eshop/tap2add-basic"><button class="demo-button">ΔΕΙΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</button></a>
-                <a href="https://buy.stripe.com/00w8wQgxl94ubeDb0Yds403"><button class="demo-button">ΑΓΟΡΑΣΤΕ ΤΩΡΑ</button></a>
-            </div>
-        </div>
-        <div class="product">
-            <img src="/media/social-product-image.jpg" alt="Tap2Add Premium">
-            <h2>Tap2Add Social</h2>
-            <h5>€12.00</h5>
-            <div class="buttons-flex">
-                <a href="/el/eshop/tap2add-social"><button class="demo-button">ΔΕΙΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</button></a>
+                <a href="/clients/social-demo/"><button class="demo-button">ΔΕΙΤΕ ΠΑΡΟΥΣΙΑΣΗ</button></a>
                 <a href="https://buy.stripe.com/28EeVech55SiciHglids404"><button class="demo-button">ΑΓΟΡΑΣΤΕ ΤΩΡΑ</button></a>
-            </div>
+            </div><br>
+            <p><strong>Tap2add Social – Τα social σου. Τίποτα περιττό.</strong></p>
+    <p>Η Tap2add Social είναι σχεδιασμένη για όσους θέλουν να μοιράζονται μόνο τα social media τους – γρήγορα, καθαρά και επαγγελματικά. Χωρίς διαφημίσεις, με κομψό περιλαίμιο και άμεση πρόσβαση σε όλα τα προφίλ σου με ένα άγγιγμα.</p>
+    <p>✅ Χωρίς διαφημίσεις<br>
+    ✅ Με περιλαίμιο<br>
+    ✅ Όλα τα social σου σε ένα tap<br>
+    ⚡ Ιδανική για creators, events, influencers</p>
+    <p><em>Απλότητα. Στυλ. Tap2add.</em></p><br>
+
         </div>
-        <div class="product">
-            <img src="/media/premium.jpg" alt="Tap2Add Premium">
-            <h2>Tap2Add Premium</h2>
-            <h5>€18.00</h5>
-            <div class="buttons-flex">
-                <a href="/el/eshop/tap2add-premium"><button class="demo-button">ΔΕΙΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</button></a>
-                <a href="https://buy.stripe.com/9B6aEY3Kz80q4Qf7OMds402"><button class="demo-button">ΑΓΟΡΑΣΤΕ ΤΩΡΑ</button></a>
-            </div>
-        </div>
+    </div><br>
+    <div class="footer">
+        <img alt="taplogo" src="/media/taplogo.png">
     </div>
-        <script>
+            <script>
         function acceptCookies() {
           document.getElementById('cookie-banner').style.display = 'none';
           localStorage.setItem('cookiesAccepted', 'true');
