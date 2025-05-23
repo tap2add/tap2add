@@ -1,3 +1,9 @@
+@keyframes fade-in {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
 body{
     background-color: #F2E9D3;
     font-family: Arial;
@@ -10,6 +16,7 @@ body{
     margin-top:2%;
     gap: 100px;
     margin-bottom: 4%;
+    animation:fade-in 2s;
 }
 
 .pfp{
