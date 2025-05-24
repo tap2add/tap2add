@@ -74,6 +74,7 @@ body{
     .socials{
         flex-direction: column;
         justify-items: left;
+        gap:20px;
     }
     
     .social img{
